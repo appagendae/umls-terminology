@@ -53,7 +53,7 @@ pip install -r requirements.txt
 git clone git@github.com:appagendae/PortugueseClinicalNER.git
 ```
 
-> Utilizei como base os arquivos dum repositório chamado PortugueseClinicalNER. Deixe esse conteúdo salvo na mesma pasta do notebook.
+> Utilizei como base os arquivos do repositório PortugueseClinicalNER. Deixe esse conteúdo salvo na mesma pasta do notebook.
 
 4. **Configure sua chave da UMLS API:**
 
