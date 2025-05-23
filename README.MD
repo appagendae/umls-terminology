@@ -51,6 +51,7 @@ source venv/bin/activate  # no Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+Utilizo como base os arquivos em um repositório chamado PortugueseClinicalNER. Clone ele e deixe salvo na mesma pasta desse notebook.
 
 4. **Configure sua chave da UMLS API:**
 
@@ -60,7 +61,7 @@ Crie um arquivo `.env` com o seguinte conteúdo:
 API_KEY_UMLS=YOUR_UMLS_API_KEY
 ```
 
-> ⚠️ Você pode obter a chave gratuita em: [https://uts.nlm.nih.gov/uts/signup-login](https://uts.nlm.nih.gov/uts/signup-login)
+> ⚠️ Você pode obter a chave gratuita se cadastrando em: [https://uts.nlm.nih.gov/uts/signup-login](https://uts.nlm.nih.gov/uts/signup-login)
 
 5. **Execute o notebook:**
 
@@ -71,12 +72,13 @@ Abra o Jupyter Notebook ou o VSCode e execute o arquivo `UMLS_text_analysis.ipyn
 * Buscar o CUI (Concept Unique Identifier) de termos como "diabetes mellitus".
 * Mapear termos clínicos para múltiplas ontologias.
 * Gerar visualizações básicas da distribuição de termos em conjuntos de dados clínicos.
+* Atenção especial no passo 6. Pode demorar muito dependendo de quantos itens processar de uma vez.
 
 ## 🙋‍♀️ Para quem é este projeto?
 
 Este projeto é ideal para:
 
-* Estudantes de graduação em áreas da saúde ou tecnologia.
+* Estudantes de IA Aplicada à Saúde.
 * Profissionais de TI que atuam com dados clínicos.
 * Pesquisadores em bioinformática e ciência de dados em saúde.
 * Interessados em IA com foco em terminologia médica.
